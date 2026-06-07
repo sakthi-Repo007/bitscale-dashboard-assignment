@@ -4,11 +4,11 @@ A responsive dashboard UI built with **Next.js**, **TypeScript**, and **Tailwind
 
 ## Live Demo
 
-https://your-vercel-url.vercel.app
+https://bitscale-dashboard-assignment-ca3u.vercel.app/
 
 ## GitHub Repository
 
-https://github.com/your-username/your-repo-name
+https://github.com/sakthi-Repo007/bitscale-dashboard-assignment
 
 ## Features
 
