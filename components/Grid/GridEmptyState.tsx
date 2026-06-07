@@ -1,8 +1,6 @@
 import { ListFilter } from "lucide-react";
-interface GridEmptyStateProps {
-  setShowNewGrid: () => void;
-}
-function GridEmptyState({ setShowNewGrid }: GridEmptyStateProps) {
+
+function GridEmptyState({ setShowNewGrid }) {
   return (
     <>
       <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-50">
