@@ -1,10 +1,8 @@
 // import { initialGrids } from "@/data/initialGrids";
-import { MoreHorizontal, Star, ListFilter } from "lucide-react";
 import NewGridModal from "./modals/NewGridModal";
 import { useState } from "react";
 import GridSearch from "./Grid/GridSearch";
 import GridEmptyState from "./Grid/GridEmptyState";
-import GridRow from "./Grid/GridRow";
 import GridTable from "./Grid/GridTable";
 
 interface GridSectionProps {
@@ -15,7 +13,7 @@ export default function GridSection({
   setShowNewGrid,
   showNewGrid,
   setGrids,
-}) {
+}: unknown) {
   const [openMenuId, setOpenMenuId] = useState<number | null>(null);
   const [editingGrid, setEditingGrid] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");

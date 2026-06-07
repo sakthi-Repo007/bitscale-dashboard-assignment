@@ -6,10 +6,10 @@ import Modal from "../ui/Modal";
 interface Props {
   isOpen: boolean;
   onClose: () => void;
-  onCreate: (grid: any) => void;
+  onCreate: (grid: unknown) => void;
 
-  editGrid?: any;
-  onUpdate?: (grid: any) => void;
+  editGrid?: unknown;
+  onUpdate?: (grid: unknown) => void;
 }
 
 export default function NewGridModal({
